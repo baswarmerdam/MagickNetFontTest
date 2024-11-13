@@ -1,0 +1,2 @@
+# MagickNetFontTest
+MagickNetFontTest

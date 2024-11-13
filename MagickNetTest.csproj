@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\font1.ttf" />
+    <None Remove="Resources\font2.otf" />
+    <None Remove="Resources\Roihu-Black.otf" />
+    <None Remove="Resources\Roihu-Bold.otf" />
+    <None Remove="Resources\Roihu-Medium.otf" />
+    <None Remove="Resources\Roihu.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\font1.ttf" />
+    <EmbeddedResource Include="Resources\font2.otf" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.0.0" />
+	</ItemGroup>
+</Project>
